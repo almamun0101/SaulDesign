@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme{
+  --color-pri : #222831;
+  --color-sec : #00ADB5;
+  --color-thi : #EEEEEE;
+}
+body{
+  font-family: "Montserrat", sans-serif;
+  background: #222831;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding:0 10px;
+}
