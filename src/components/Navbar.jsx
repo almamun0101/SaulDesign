@@ -3,8 +3,10 @@ import React from "react";
 export const Navbar = () => {
   return (
     <>
-      <div className="bg-pri border-b-amber-50 broder-white">
-        <nav className="flex items-center justify-between text-thi container">
+      <div className="bg-pri ">
+        <div className="border-b border-[#EEEEEE1A]">
+
+        <nav className=" flex items-center justify-between text-thi container">
             <div className="logo">
             <h2 className="text-2xl font-[Oswald] font-bold tracking-wider">SaulDesign</h2>
             </div>
@@ -16,6 +18,7 @@ export const Navbar = () => {
                 </ul>
             </div>
         </nav>
+        </div>
       </div>
     </>
   );
