@@ -35,11 +35,11 @@ export const Navbar = () => {
 
             </div>
             {menu && (
-          <div className="lg:hidden absolute top-20 w-ful pb-4">
-            <ul className="flex flex-col gap-4 text-thi">
-              <li><a href="">Home</a></li>
-              <li><a href="">About</a></li>
-              <li><a href="">Services</a></li>
+          <div className="lg:hidden absolute top-20 w-ful pb-4 bg-pri">
+            <ul className="flex flex-col gap-4 text-thi bg-pri">
+              <li className="bg-pri"><a href="">Home</a></li>
+              <li className="bg-pri"><a href="">About</a></li>
+              <li className="bg-pri"><a href="">Services</a></li>
             </ul>
           </div>
         )}
