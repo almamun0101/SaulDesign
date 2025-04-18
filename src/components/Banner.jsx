@@ -15,12 +15,12 @@ export const Banner = () => {
                 CREATIVE UI
                 <div className="text-sec">DESIGNER</div>
               </h1>
-              <div className="flex gap-6 pt-8 text-sm">
+              <div className="flex gap-2 lg:gap-6 pt-8 text-sm">
                 <button className="bg-[#393E46BF] hover:bg-sec rounded-4xl  px-10 py-2">
                   Hire Me
                 </button>
                 <button className="bg-[#393E46BF] hover:bg-sec rounded-4xl px-10 py-2">
-                  <span className="flex lg:gap-3 items-center ">
+                  <span className="flex gap-1 lg:gap-3 items-center ">
                     Download CV
                     <FaDownload />
                   </span>
