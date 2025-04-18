@@ -15,10 +15,10 @@ const Footer = () => {
             <div className="py-20">
 
             <div className="links">
-                <ul className='flex gap-30 justify-center '>
-                    <li className='flex gap-4 items-center text-lg font-medium '><IoMdHome />Home</li>
-                    <li className='flex gap-4 items-center text-lg font-medium '><FaUser />About Me</li>
-                    <li className='flex gap-4 items-center text-lg font-medium '><IoCall />Contact</li>
+                <ul className='flex gap-5 lg:gap-30 justify-center '>
+                    <li className='flex gap-1 lg:gap-4 items-center text-lg font-medium '><IoMdHome />Home</li>
+                    <li className='flex gap-1 lg:gap-4 items-center text-lg font-medium '><FaUser />About Me</li>
+                    <li className='flex gap-1 lg:gap-4 items-center text-lg font-medium '><IoCall />Contact</li>
                 </ul>
 
                 <ul className='flex gap-10 justify-center mt-10 text-4xl '>

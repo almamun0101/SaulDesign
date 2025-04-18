@@ -14,12 +14,12 @@ export const About = () => {
           <div className="absolute bottom-30 left-40">
             <img src="./Vector3.png" alt="" />
           </div>
-          <div className="flex items-center justify-between py-50 ">
-            <div className="text">
+          <div className="flex flex-col lg:flex-row items-center justify-between py-20 lg:py-50 ">
+            <div className="">
               <div className="text-thi text-5xl font-bold py-5">
                 About <span className="text-sec">Me</span>
               </div>
-              <p className="w-[390px] text-thi/75">
+              <p className="lg:w-[390px] text-thi/75">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                 vulputate libero et velit interdum, ac aliquet odio mattis.
                 Class aptent taciti sociosqu ad litora torquent per conubia

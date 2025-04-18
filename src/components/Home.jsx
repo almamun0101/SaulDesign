@@ -14,9 +14,9 @@ export const Home = () => {
     <Navbar/>
     <Banner/>
     <About/>
-    {/* <Works/> */}
-    {/* <Project/> */}
-    {/* <Footer/> */}
+    <Works/>
+    <Project/>
+    <Footer/>
     </>
   )
 }

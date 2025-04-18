@@ -3,13 +3,13 @@ import React from "react";
 export const Works = () => {
   return (
     <div>
-      <div className="bg-[url(./BG.png)] py-50 text-thi">
+      <div className="bg-[url(./BG.png)] py-20 lg:py-50 text-thi">
         <div className="container">
           <div className="">
             <h2 className="font-bold text-4xl py-5">
               My recent <span className="text-sec">works</span>
             </h2>
-            <ul className="flex gap-6 ">
+            <ul className="flex gap-1 lg:gap-6 ">
               <li className="">
                 <a
                   href=""
